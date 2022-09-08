@@ -1,21 +1,20 @@
 body {
   position: relative;
   margin: 0;
-  /* min-width: 1408px; */
+  min-width: 1408px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   /* text-shadow: 5px 5px 5px rgb(255, 255, 255); */
   line-height: 32px;
   background: url("./Фон.jpg" );
   background-repeat: no-repeat;
-  background-position:30% 30%;
+  background-position:60% 50%;
   background-size:cover;
 }
 main{
   flex: 1 1 auto;
 }
 .container {
-  margin: 0 auto;
   text-align: center;
   padding: 0 16px;
   margin-left: 20px;
@@ -33,8 +32,8 @@ main{
   margin-right: 20px;
   padding-bottom: 12px;
   padding-top: 10px;
-  color: #ffffff;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -98,8 +97,8 @@ main{
   line-height: 120px;
   letter-spacing: -2px;
   font-weight: 400;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px 2px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px rgb(211, 196, 196);
   /* border:3px solid #8da2ed; */
   border-radius: 20%;
   font-style: italic;
@@ -542,15 +541,14 @@ main{
 .page-footer {
   padding: 40px 0;
   font-style: italic;
-  /* background-color: #1960cb; */
 }
 
 .page-footer a {
   margin-right: 20px;
   padding-bottom: 10px;
   padding-top: 10px;
-  color: #ffffff;
-  text-shadow: 1px 1px 1px rgb(0, 0, 0);
+  color: rgb(0, 0, 0);
+  text-shadow: 1px 1px 1px rgb(255, 255, 255);
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
